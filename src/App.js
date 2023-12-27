@@ -4,7 +4,10 @@ import HeroSec from './components/HeroSec';
 import Project from './components/Project';
 import Benefits from './components/Benefits';
 import Whitepaper from './components/Whitepaper';
-
+import Roadmap from './components/Roadmap';
+import Footer from './components/Footer';
+import Takenomics from './components/Tekenomics';
+import Partner from './components/Partner';
 function App() {
   return (
     <div>
@@ -17,6 +20,12 @@ function App() {
       <div className='bg-[url("./assets/images/whitepaper-bg.png")]'>
         <Whitepaper/>
       </div>
+      <Roadmap/>
+      <Takenomics/>
+      <div className='bg-[url("./assets/images/PublicBg.png")]'>
+        <Partner/>
+      </div>
+      <Footer/>
     </div>
   );
 }
