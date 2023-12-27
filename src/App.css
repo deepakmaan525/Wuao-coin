@@ -1,1 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+.bg-custom{
+    background: linear-gradient(180deg, #FFBA3B -9.01%, #FFA53B 43.37%, #FF983B 89.55%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
