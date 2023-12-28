@@ -15,7 +15,7 @@ const Footer = () => {
                     <div className='col-span-2 xs:col-span-3 md:col-span-2 xl:col-span-3 2xl:col-span-4 flex flex-col max-w-[255px]'>
                         <img src={logo} alt="logo" />
                         <p className='text-[#32352C] text-xs sm:text-base font-Montserrat font-normal opacity-70 mt-4 sm:mt-[22px]'>Welcome to The Future of the Market. The world's first Global TechFi Platform</p>
-                        <div className='flex items-center gap-3 mt-4 sm:mt-6'>
+                        <div className='flex items-center gap-3 mt-4 sm:mt-6 relative z-10'>
                             <a className='hover:-translate-y-1 duration-500' href="http://discord.com" target='_blank'><img src={Discord} alt="discord" /></a>
                             <a className='hover:-translate-y-1 duration-500' href="http://twitter.com" target='_blank'><img src={Twitter} alt="twitter" /> </a>
                             <a className='hover:-translate-y-1 duration-500' href="http://telegram.com" target='_blank'><img src={Telegram} alt="telegram" /></a>
