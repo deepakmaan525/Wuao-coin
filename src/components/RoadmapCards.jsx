@@ -1,37 +1,37 @@
 const RoadmapCards = () => {
     const CardsItems = [
         {
-            BackGround: "bg-gradient-to-r from-[#EFB93B] to-[#EFB93B]",
+            BackGround: "bg-gradient-to-r from-[#EFB93B] to-[#EFB93B] hover:bg-[#FF993C] duration-400",
             Number: "01",
             heading: "Organizational concept (creations)",
             paddingLeft: "pl-0"
         },
         {
-            BackGround: "bg-gradient-to-r from-[#E0480A] to-[#E0480A]",
+            BackGround: "bg-gradient-to-r from-[#E0480A] to-[#E0480A] hover:bg-[#FF993C] duration-400",
             Number: "02",
             heading: "Directional Process (Actions)",
             paddingLeft: "2xl:pl-[10px]"
         },
         {
-            BackGround: "bg-[#E0480A]",
+            BackGround: "bg-[#E0480A] hover:bg-[#FF993C] duration-400",
             Number: "03",
             heading: "Operational Development (technical team)",
             paddingLeft: "2xl:pl-[10px]"
         },
         {
-            BackGround: "bg-[#364EC6]",
+            BackGround: "bg-[#364EC6] hover:bg-[#FF993C] duration-400",
             Number: "04",
             heading: "Strategic Opportunities (alliances)",
             paddingLeft: "2xl:pl-4"
         },
         {
-            BackGround: "bg-gradient-to-r from-[#6A3DAD] to-[#6A3DAD]",
+            BackGround: "bg-gradient-to-r from-[#6A3DAD] to-[#6A3DAD] hover:bg-[#FF993C] duration-400",
             Number: "05",
             heading: "Stakeholders (benefits)",
             paddingLeft: "2xl:pl-4"
         },
         {
-            BackGround: "bg-gradient-to-r from-[#ED5C83] to-[#ED5C83]",
+            BackGround: "bg-gradient-to-r from-[#ED5C83] to-[#ED5C83] hover:bg-[#FF993C] duration-400",
             Number: "06",
             heading: "Human Identity (social contribution)",
             paddingLeft: "2xl:pl-4"
