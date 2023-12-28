@@ -7,3 +7,6 @@
 .animate-spin{
     animation: spin 15s linear infinite;
 }
+*{
+    scroll-behavior: smooth;
+}

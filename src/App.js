@@ -11,6 +11,7 @@ import Partner from "./components/Partner";
 import Public from "./components/Public";
 import Preloader from "./components/Preloader";
 import { useEffect, useState } from "react";
+import Backtotop from "./components/BackToTop";
 function App() {
   const [data, setdata] = useState(false);
   useEffect(() => {
@@ -21,7 +22,7 @@ function App() {
   }, []);
 
   return (
-    <div>
+    <div className=" scroll-smooth">
       {data ? (
         <div>
           <Preloader />
@@ -46,6 +47,7 @@ function App() {
             <Partner />
           </div>
           <Footer />
+          <Backtotop/>
         </div>
       )}
     </div>
