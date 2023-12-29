@@ -29,21 +29,21 @@ function App() {
         </div>
       ) : (
         <div>
-          <div className=' bg-[#FFAD3B] xl:bg-[url("./assets/images/header-bg.png")] '>
+          <div className=' max-xl:bg-[#FFAD3B] xl:bg-[url("./assets/images/header-bg.png")] bg-cover bg-no-repeat '>
             <Nav />
             <HeroSec />
           </div>
           <Project />
           <Benefits />
-          <div className='bg-[url("./assets/images/whitepaper-bg.png")]'>
+          <div className='bg-[url("./assets/images/whitepaper-bg.png")] bg-size-100 bg-no-repeat'>
             <Whitepaper />
           </div>
           <Roadmap />
-          <div className='bg-[url("./assets/images/PublicBg.png")] '>
+          <div className='bg-[url("./assets/images/PublicBg.png")] bg-size-100 bg-no-repeat '>
             <Public />
           </div>
           <Takenomics />
-          <div className='bg-[url("./assets/images/PublicBg.png")]'>
+          <div className='bg-[url("./assets/images/PublicBg.png")] bg-size-100 bg-no-repeat'>
             <Partner />
           </div>
           <Footer />

@@ -5,4 +5,8 @@
     .bottomLine{
         @apply relative after:absolute after:h-[2px] after:rounded-full after:bg-[#FFAF3B] hover:text-[#FFAF3B] after:w-0 hover:after:w-full duration-300 after:-bottom-[2px] after:left-0 after:duration-300
     }
+   
+}
+.bg-size-100{
+   background-size: 100% 100%;
 }
