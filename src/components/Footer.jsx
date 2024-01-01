@@ -58,7 +58,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <p className='text-[#32352C] font-Montserrat font-normal text-xs sm:text-base leading-6 text-center opacity-60 py-3 sm:py-4 md:py-5 lg:py-[25px] border-[#9F9F9F] border-t'>© Copyright 2022 - Wuaocoin</p>
+            <p className='text-[#32352C] font-Montserrat font-normal text-xs sm:text-base leading-6 text-center opacity-60 py-3 sm:py-4 md:py-5 lg:py-[25px] border-[#9F9F9F] border-t'>© Copyright {(new Date().getFullYear())} - Wuaocoin</p>
         </div>
     )
 }

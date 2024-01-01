@@ -12,6 +12,7 @@ import Public from "./components/Public";
 import Preloader from "./components/Preloader";
 import { useEffect, useState } from "react";
 import Backtotop from "./components/BackToTop";
+import headerBG from "./assets/images/header-bg.png";
 function App() {
   const [data, setdata] = useState(false);
   useEffect(() => {
@@ -20,7 +21,6 @@ function App() {
       setdata(false);
     }, 3000);
   }, []);
-
   return (
     <div className=" scroll-smooth">
       {data ? (
@@ -29,11 +29,14 @@ function App() {
         </div>
       ) : (
         <div>
-          <div className=' max-xl:bg-[#FFAD3B] xl:bg-[url("./assets/images/header-bg.png")] bg-cover bg-no-repeat '>
+          <div className='relative max-xl:bg-[#FFAD3B] xl:bg-[url("./asse ts/images/header-bg.png")]  bg-no-repeat '>
             <Nav />
             <HeroSec />
+          <div className="max-xl:bg-white">
+            <Project />
           </div>
-          <Project />
+          <div><img className="absolute top-0 left-0 right-0 w-full -z-10 h-[80%]" src={headerBG} alt="" /></div>
+          </div>
           <Benefits />
           <div className='bg-[url("./assets/images/whitepaper-bg.png")] bg-size-100 bg-no-repeat'>
             <Whitepaper />
